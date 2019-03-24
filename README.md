@@ -1,3 +1,4 @@
 # BGardner25.github.io
 
-Open index.html in WebHostGame to launch prototype in browser
+To launch game prototype:
+https://bgardner25.github.io/WebHostGame/
