@@ -274,6 +274,7 @@ gdjs.StartupCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRelea
 }}
 if (gdjs.StartupCode.condition1IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "FirstLevel", true);
+}{runtimeScene.getGame().getVariables().getFromIndex(7).setNumber(1);
 }}
 
 }
