@@ -1,3 +1,11 @@
 Created using GDevelop5.
 Assets used in game: https://0x72.itch.io/dungeontileset-ii
 Further assets included with GDevelop.
+
+Audio:
+Arcane by Doxent Zsigmond (c) copyright 2014 Licensed under a Creative Commons Attribution Noncommercial  
+(3.0) license. http://dig.ccmixter.org/files/doxent/48283 Ft: Javolenus
+
+knife slash 1 by beerbelly38 - Licensed under a Creative Commons Attribution (3.0) license. https://freesound.org/people/beerbelly38/sounds/362350/
+
+SFX_ATTACK_SWORD_001 by Joel Azzopardi - Licensed under a Creative Commons Attribution (3.0) license. https://freesound.org/people/JoelAudio/sounds/77611/
