@@ -153,7 +153,7 @@ gdjs.StartupCode.GDstartButtonObjects1.createFrom(runtimeScene.getObjects("start
 }{for(var i = 0, len = gdjs.StartupCode.GDcreditButtonObjects1.length ;i < len;++i) {
     gdjs.StartupCode.GDcreditButtonObjects1[i].hide();
 }
-}{gdjs.evtTools.window.setFullScreen(runtimeScene, true, true);
+}{gdjs.evtTools.window.setFullScreen(runtimeScene, true, false);
 }}
 
 }
