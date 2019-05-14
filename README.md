@@ -1,5 +1,5 @@
 # BGardner25.github.io
 
-Development Title - Dungeon Crawler.
-To launch game prototype:
+Title - Dungeon Delve.
+To launch game:
 https://bgardner25.github.io/WebHostGame/
