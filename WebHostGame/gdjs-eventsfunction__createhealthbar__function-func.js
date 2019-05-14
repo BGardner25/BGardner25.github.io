@@ -17,7 +17,7 @@ gdjs.eventsFunction__createhealthbar__function.mapOfGDgdjs_46eventsFunction_95_9
 gdjs.eventsFunction__createhealthbar__function.GDEnemyObjects1.createFrom(eventsFunctionContext.getObjects("Enemy"));
 gdjs.eventsFunction__createhealthbar__function.GDHealthBarObjects1.length = 0;
 
-{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.eventsFunction__createhealthbar__function.mapOfGDgdjs_46eventsFunction_95_95createhealthbar_95_95function_46GDHealthBarObjects1Objects, 0, 0, "");
+{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.eventsFunction__createhealthbar__function.mapOfGDgdjs_46eventsFunction_95_95createhealthbar_95_95function_46GDHealthBarObjects1Objects, (( gdjs.eventsFunction__createhealthbar__function.GDEnemyObjects1.length === 0 ) ? 0 :gdjs.eventsFunction__createhealthbar__function.GDEnemyObjects1[0].getPointX("healthOrigin")), (( gdjs.eventsFunction__createhealthbar__function.GDEnemyObjects1.length === 0 ) ? 0 :gdjs.eventsFunction__createhealthbar__function.GDEnemyObjects1[0].getPointY("healthOrigin")), "");
 }{for(var i = 0, len = gdjs.eventsFunction__createhealthbar__function.GDHealthBarObjects1.length ;i < len;++i) {
     gdjs.eventsFunction__createhealthbar__function.GDHealthBarObjects1[i].setZOrder(600);
 }

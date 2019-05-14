@@ -160,6 +160,15 @@ gdjs.Level4Code.GDfogObjects3= [];
 gdjs.Level4Code.GDblockerObjects1= [];
 gdjs.Level4Code.GDblockerObjects2= [];
 gdjs.Level4Code.GDblockerObjects3= [];
+gdjs.Level4Code.GDmainMenuObjects1= [];
+gdjs.Level4Code.GDmainMenuObjects2= [];
+gdjs.Level4Code.GDmainMenuObjects3= [];
+gdjs.Level4Code.GDquitButtonObjects1= [];
+gdjs.Level4Code.GDquitButtonObjects2= [];
+gdjs.Level4Code.GDquitButtonObjects3= [];
+gdjs.Level4Code.GDdeathsObjects1= [];
+gdjs.Level4Code.GDdeathsObjects2= [];
+gdjs.Level4Code.GDdeathsObjects3= [];
 
 gdjs.Level4Code.conditionTrue_0 = {val:false};
 gdjs.Level4Code.condition0IsTrue_0 = {val:false};
@@ -175,10 +184,10 @@ gdjs.Level4Code.condition3IsTrue_1 = {val:false};
 gdjs.Level4Code.condition4IsTrue_1 = {val:false};
 
 
-gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDcoinObjects1Objects = Hashtable.newFrom({"coin": gdjs.Level4Code.GDcoinObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDdoorObjects1Objects = Hashtable.newFrom({"door": gdjs.Level4Code.GDdoorObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDdemonObjects2ObjectsGDgdjs_46Level4Code_46GDsentryObjects2ObjectsGDgdjs_46Level4Code_46GDzombieObjects2ObjectsGDgdjs_46Level4Code_46GDwizardObjects2Objects = Hashtable.newFrom({"demon": gdjs.Level4Code.GDdemonObjects2, "sentry": gdjs.Level4Code.GDsentryObjects2, "zombie": gdjs.Level4Code.GDzombieObjects2, "wizard": gdjs.Level4Code.GDwizardObjects2});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDenemyHealthBarObjects2Objects = Hashtable.newFrom({"enemyHealthBar": gdjs.Level4Code.GDenemyHealthBarObjects2});gdjs.Level4Code.eventsList0x99ea18 = function(runtimeScene) {
+gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDcoinObjects1Objects = Hashtable.newFrom({"coin": gdjs.Level4Code.GDcoinObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDdoorObjects1Objects = Hashtable.newFrom({"door": gdjs.Level4Code.GDdoorObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDdemonObjects2ObjectsGDgdjs_46Level4Code_46GDsentryObjects2ObjectsGDgdjs_46Level4Code_46GDzombieObjects2ObjectsGDgdjs_46Level4Code_46GDwizardObjects2Objects = Hashtable.newFrom({"demon": gdjs.Level4Code.GDdemonObjects2, "sentry": gdjs.Level4Code.GDsentryObjects2, "zombie": gdjs.Level4Code.GDzombieObjects2, "wizard": gdjs.Level4Code.GDwizardObjects2});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDenemyHealthBarObjects2Objects = Hashtable.newFrom({"enemyHealthBar": gdjs.Level4Code.GDenemyHealthBarObjects2});gdjs.Level4Code.eventsList0x73b358 = function(runtimeScene) {
 
-}; //End of gdjs.Level4Code.eventsList0x99ea18
-gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDcoinObjects1Objects = Hashtable.newFrom({"coin": gdjs.Level4Code.GDcoinObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.eventsList0x9e1848 = function(runtimeScene) {
+}; //End of gdjs.Level4Code.eventsList0x73b358
+gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDcoinObjects1Objects = Hashtable.newFrom({"coin": gdjs.Level4Code.GDcoinObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.eventsList0x8488f0 = function(runtimeScene) {
 
 {
 
@@ -226,8 +235,8 @@ gdjs.Level4Code.GDplayerKnightObjects1.length = k;}if (gdjs.Level4Code.condition
 }
 
 
-}; //End of gdjs.Level4Code.eventsList0x9e1848
-gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerWeaponObjects1Objects = Hashtable.newFrom({"playerWeapon": gdjs.Level4Code.GDplayerWeaponObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwallObjects1ObjectsGDgdjs_46Level4Code_46GDwallRightObjects1ObjectsGDgdjs_46Level4Code_46GDwallLeftObjects1ObjectsGDgdjs_46Level4Code_46GDdoorObjects1ObjectsGDgdjs_46Level4Code_46GDopenDoorObjects1ObjectsGDgdjs_46Level4Code_46GDlavaBaseObjects1ObjectsGDgdjs_46Level4Code_46GDlavaObjects1Objects = Hashtable.newFrom({"wall": gdjs.Level4Code.GDwallObjects1, "wallRight": gdjs.Level4Code.GDwallRightObjects1, "wallLeft": gdjs.Level4Code.GDwallLeftObjects1, "door": gdjs.Level4Code.GDdoorObjects1, "openDoor": gdjs.Level4Code.GDopenDoorObjects1, "lavaBase": gdjs.Level4Code.GDlavaBaseObjects1, "lava": gdjs.Level4Code.GDlavaObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerWeaponObjects1Objects = Hashtable.newFrom({"playerWeapon": gdjs.Level4Code.GDplayerWeaponObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerWeaponObjects1Objects = Hashtable.newFrom({"playerWeapon": gdjs.Level4Code.GDplayerWeaponObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDdemonObjects1ObjectsGDgdjs_46Level4Code_46GDsentryObjects1ObjectsGDgdjs_46Level4Code_46GDzombieObjects1ObjectsGDgdjs_46Level4Code_46GDwizardObjects1Objects = Hashtable.newFrom({"demon": gdjs.Level4Code.GDdemonObjects1, "sentry": gdjs.Level4Code.GDsentryObjects1, "zombie": gdjs.Level4Code.GDzombieObjects1, "wizard": gdjs.Level4Code.GDwizardObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDenemyHealthBarObjects1Objects = Hashtable.newFrom({"enemyHealthBar": gdjs.Level4Code.GDenemyHealthBarObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDexplosionObjects1Objects = Hashtable.newFrom({"explosion": gdjs.Level4Code.GDexplosionObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDenemyHealthBarObjects1Objects = Hashtable.newFrom({"enemyHealthBar": gdjs.Level4Code.GDenemyHealthBarObjects1});gdjs.Level4Code.eventsList0x70c7b0 = function(runtimeScene) {
+}; //End of gdjs.Level4Code.eventsList0x8488f0
+gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerWeaponObjects1Objects = Hashtable.newFrom({"playerWeapon": gdjs.Level4Code.GDplayerWeaponObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwallObjects1ObjectsGDgdjs_46Level4Code_46GDwallRightObjects1ObjectsGDgdjs_46Level4Code_46GDwallLeftObjects1ObjectsGDgdjs_46Level4Code_46GDdoorObjects1ObjectsGDgdjs_46Level4Code_46GDopenDoorObjects1ObjectsGDgdjs_46Level4Code_46GDlavaBaseObjects1ObjectsGDgdjs_46Level4Code_46GDlavaObjects1Objects = Hashtable.newFrom({"wall": gdjs.Level4Code.GDwallObjects1, "wallRight": gdjs.Level4Code.GDwallRightObjects1, "wallLeft": gdjs.Level4Code.GDwallLeftObjects1, "door": gdjs.Level4Code.GDdoorObjects1, "openDoor": gdjs.Level4Code.GDopenDoorObjects1, "lavaBase": gdjs.Level4Code.GDlavaBaseObjects1, "lava": gdjs.Level4Code.GDlavaObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerWeaponObjects1Objects = Hashtable.newFrom({"playerWeapon": gdjs.Level4Code.GDplayerWeaponObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerWeaponObjects1Objects = Hashtable.newFrom({"playerWeapon": gdjs.Level4Code.GDplayerWeaponObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDdemonObjects1ObjectsGDgdjs_46Level4Code_46GDsentryObjects1ObjectsGDgdjs_46Level4Code_46GDzombieObjects1ObjectsGDgdjs_46Level4Code_46GDwizardObjects1Objects = Hashtable.newFrom({"demon": gdjs.Level4Code.GDdemonObjects1, "sentry": gdjs.Level4Code.GDsentryObjects1, "zombie": gdjs.Level4Code.GDzombieObjects1, "wizard": gdjs.Level4Code.GDwizardObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDenemyHealthBarObjects1Objects = Hashtable.newFrom({"enemyHealthBar": gdjs.Level4Code.GDenemyHealthBarObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDexplosionObjects1Objects = Hashtable.newFrom({"explosion": gdjs.Level4Code.GDexplosionObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDenemyHealthBarObjects1Objects = Hashtable.newFrom({"enemyHealthBar": gdjs.Level4Code.GDenemyHealthBarObjects1});gdjs.Level4Code.eventsList0x8b0d30 = function(runtimeScene) {
 
 {
 
@@ -298,14 +307,14 @@ for(var i = 0, len = gdjs.Level4Code.GDwizardObjects1.length ;i < len;++i) {
 }
 
 
-}; //End of gdjs.Level4Code.eventsList0x70c7b0
-gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDdemonObjects1ObjectsGDgdjs_46Level4Code_46GDspikesObjects1ObjectsGDgdjs_46Level4Code_46GDpermaSpikeObjects1ObjectsGDgdjs_46Level4Code_46GDsentryObjects1ObjectsGDgdjs_46Level4Code_46GDprojectileObjects1ObjectsGDgdjs_46Level4Code_46GDzombieObjects1ObjectsGDgdjs_46Level4Code_46GDwizardObjects1Objects = Hashtable.newFrom({"demon": gdjs.Level4Code.GDdemonObjects1, "spikes": gdjs.Level4Code.GDspikesObjects1, "permaSpike": gdjs.Level4Code.GDpermaSpikeObjects1, "sentry": gdjs.Level4Code.GDsentryObjects1, "projectile": gdjs.Level4Code.GDprojectileObjects1, "zombie": gdjs.Level4Code.GDzombieObjects1, "wizard": gdjs.Level4Code.GDwizardObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDspikesObjects1Objects = Hashtable.newFrom({"spikes": gdjs.Level4Code.GDspikesObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDexplosionObjects1Objects = Hashtable.newFrom({"explosion": gdjs.Level4Code.GDexplosionObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwallObjects1ObjectsGDgdjs_46Level4Code_46GDwallRightObjects1ObjectsGDgdjs_46Level4Code_46GDwallLeftObjects1ObjectsGDgdjs_46Level4Code_46GDdoorObjects1ObjectsGDgdjs_46Level4Code_46GDopenDoorObjects1ObjectsGDgdjs_46Level4Code_46GDlavaBaseObjects1ObjectsGDgdjs_46Level4Code_46GDlavaObjects1Objects = Hashtable.newFrom({"wall": gdjs.Level4Code.GDwallObjects1, "wallRight": gdjs.Level4Code.GDwallRightObjects1, "wallLeft": gdjs.Level4Code.GDwallLeftObjects1, "door": gdjs.Level4Code.GDdoorObjects1, "openDoor": gdjs.Level4Code.GDopenDoorObjects1, "lavaBase": gdjs.Level4Code.GDlavaBaseObjects1, "lava": gdjs.Level4Code.GDlavaObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwallObjects1ObjectsGDgdjs_46Level4Code_46GDwallRightObjects1ObjectsGDgdjs_46Level4Code_46GDwallLeftObjects1ObjectsGDgdjs_46Level4Code_46GDdoorObjects1ObjectsGDgdjs_46Level4Code_46GDopenDoorObjects1ObjectsGDgdjs_46Level4Code_46GDlavaBaseObjects1ObjectsGDgdjs_46Level4Code_46GDlavaObjects1Objects = Hashtable.newFrom({"wall": gdjs.Level4Code.GDwallObjects1, "wallRight": gdjs.Level4Code.GDwallRightObjects1, "wallLeft": gdjs.Level4Code.GDwallLeftObjects1, "door": gdjs.Level4Code.GDdoorObjects1, "openDoor": gdjs.Level4Code.GDopenDoorObjects1, "lavaBase": gdjs.Level4Code.GDlavaBaseObjects1, "lava": gdjs.Level4Code.GDlavaObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDholeObjects1Objects = Hashtable.newFrom({"hole": gdjs.Level4Code.GDholeObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDholeObjects1Objects = Hashtable.newFrom({"hole": gdjs.Level4Code.GDholeObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDcoinObjects1Objects = Hashtable.newFrom({"coin": gdjs.Level4Code.GDcoinObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwizardObjects1Objects = Hashtable.newFrom({"wizard": gdjs.Level4Code.GDwizardObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDblockerObjects1Objects = Hashtable.newFrom({"blocker": gdjs.Level4Code.GDblockerObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDblockerObjects1Objects = Hashtable.newFrom({"blocker": gdjs.Level4Code.GDblockerObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDblockerObjects1Objects = Hashtable.newFrom({"blocker": gdjs.Level4Code.GDblockerObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDspikesObjects1Objects = Hashtable.newFrom({"spikes": gdjs.Level4Code.GDspikesObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDexplosionObjects1Objects = Hashtable.newFrom({"explosion": gdjs.Level4Code.GDexplosionObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDpermaSpikeObjects1Objects = Hashtable.newFrom({"permaSpike": gdjs.Level4Code.GDpermaSpikeObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDdemonObjects1Objects = Hashtable.newFrom({"demon": gdjs.Level4Code.GDdemonObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDdemonObjects1Objects = Hashtable.newFrom({"demon": gdjs.Level4Code.GDdemonObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwallObjects1ObjectsGDgdjs_46Level4Code_46GDwallRightObjects1ObjectsGDgdjs_46Level4Code_46GDwallLeftObjects1ObjectsGDgdjs_46Level4Code_46GDdoorObjects1ObjectsGDgdjs_46Level4Code_46GDopenDoorObjects1ObjectsGDgdjs_46Level4Code_46GDlavaBaseObjects1ObjectsGDgdjs_46Level4Code_46GDlavaObjects1Objects = Hashtable.newFrom({"wall": gdjs.Level4Code.GDwallObjects1, "wallRight": gdjs.Level4Code.GDwallRightObjects1, "wallLeft": gdjs.Level4Code.GDwallLeftObjects1, "door": gdjs.Level4Code.GDdoorObjects1, "openDoor": gdjs.Level4Code.GDopenDoorObjects1, "lavaBase": gdjs.Level4Code.GDlavaBaseObjects1, "lava": gdjs.Level4Code.GDlavaObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwallObjects1ObjectsGDgdjs_46Level4Code_46GDwallRightObjects1ObjectsGDgdjs_46Level4Code_46GDwallLeftObjects1ObjectsGDgdjs_46Level4Code_46GDdoorObjects1ObjectsGDgdjs_46Level4Code_46GDopenDoorObjects1ObjectsGDgdjs_46Level4Code_46GDlavaBaseObjects1ObjectsGDgdjs_46Level4Code_46GDlavaObjects1Objects = Hashtable.newFrom({"wall": gdjs.Level4Code.GDwallObjects1, "wallRight": gdjs.Level4Code.GDwallRightObjects1, "wallLeft": gdjs.Level4Code.GDwallLeftObjects1, "door": gdjs.Level4Code.GDdoorObjects1, "openDoor": gdjs.Level4Code.GDopenDoorObjects1, "lavaBase": gdjs.Level4Code.GDlavaBaseObjects1, "lava": gdjs.Level4Code.GDlavaObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDdemonObjects1Objects = Hashtable.newFrom({"demon": gdjs.Level4Code.GDdemonObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDdemonObjects1Objects = Hashtable.newFrom({"demon": gdjs.Level4Code.GDdemonObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDenemyHealthBarObjects2Objects = Hashtable.newFrom({"enemyHealthBar": gdjs.Level4Code.GDenemyHealthBarObjects2});gdjs.Level4Code.eventsList0x8f4cc8 = function(runtimeScene) {
+}; //End of gdjs.Level4Code.eventsList0x8b0d30
+gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDdemonObjects1ObjectsGDgdjs_46Level4Code_46GDspikesObjects1ObjectsGDgdjs_46Level4Code_46GDpermaSpikeObjects1ObjectsGDgdjs_46Level4Code_46GDsentryObjects1ObjectsGDgdjs_46Level4Code_46GDprojectileObjects1ObjectsGDgdjs_46Level4Code_46GDzombieObjects1ObjectsGDgdjs_46Level4Code_46GDwizardObjects1Objects = Hashtable.newFrom({"demon": gdjs.Level4Code.GDdemonObjects1, "spikes": gdjs.Level4Code.GDspikesObjects1, "permaSpike": gdjs.Level4Code.GDpermaSpikeObjects1, "sentry": gdjs.Level4Code.GDsentryObjects1, "projectile": gdjs.Level4Code.GDprojectileObjects1, "zombie": gdjs.Level4Code.GDzombieObjects1, "wizard": gdjs.Level4Code.GDwizardObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDspikesObjects1Objects = Hashtable.newFrom({"spikes": gdjs.Level4Code.GDspikesObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDexplosionObjects1Objects = Hashtable.newFrom({"explosion": gdjs.Level4Code.GDexplosionObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwallObjects1ObjectsGDgdjs_46Level4Code_46GDwallRightObjects1ObjectsGDgdjs_46Level4Code_46GDwallLeftObjects1ObjectsGDgdjs_46Level4Code_46GDdoorObjects1ObjectsGDgdjs_46Level4Code_46GDopenDoorObjects1ObjectsGDgdjs_46Level4Code_46GDlavaBaseObjects1ObjectsGDgdjs_46Level4Code_46GDlavaObjects1Objects = Hashtable.newFrom({"wall": gdjs.Level4Code.GDwallObjects1, "wallRight": gdjs.Level4Code.GDwallRightObjects1, "wallLeft": gdjs.Level4Code.GDwallLeftObjects1, "door": gdjs.Level4Code.GDdoorObjects1, "openDoor": gdjs.Level4Code.GDopenDoorObjects1, "lavaBase": gdjs.Level4Code.GDlavaBaseObjects1, "lava": gdjs.Level4Code.GDlavaObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwallObjects1ObjectsGDgdjs_46Level4Code_46GDwallRightObjects1ObjectsGDgdjs_46Level4Code_46GDwallLeftObjects1ObjectsGDgdjs_46Level4Code_46GDdoorObjects1ObjectsGDgdjs_46Level4Code_46GDopenDoorObjects1ObjectsGDgdjs_46Level4Code_46GDlavaBaseObjects1ObjectsGDgdjs_46Level4Code_46GDlavaObjects1Objects = Hashtable.newFrom({"wall": gdjs.Level4Code.GDwallObjects1, "wallRight": gdjs.Level4Code.GDwallRightObjects1, "wallLeft": gdjs.Level4Code.GDwallLeftObjects1, "door": gdjs.Level4Code.GDdoorObjects1, "openDoor": gdjs.Level4Code.GDopenDoorObjects1, "lavaBase": gdjs.Level4Code.GDlavaBaseObjects1, "lava": gdjs.Level4Code.GDlavaObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDholeObjects1Objects = Hashtable.newFrom({"hole": gdjs.Level4Code.GDholeObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDholeObjects1Objects = Hashtable.newFrom({"hole": gdjs.Level4Code.GDholeObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDcoinObjects1Objects = Hashtable.newFrom({"coin": gdjs.Level4Code.GDcoinObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwizardObjects1Objects = Hashtable.newFrom({"wizard": gdjs.Level4Code.GDwizardObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDblockerObjects1Objects = Hashtable.newFrom({"blocker": gdjs.Level4Code.GDblockerObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDblockerObjects1Objects = Hashtable.newFrom({"blocker": gdjs.Level4Code.GDblockerObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDblockerObjects1Objects = Hashtable.newFrom({"blocker": gdjs.Level4Code.GDblockerObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDspikesObjects1Objects = Hashtable.newFrom({"spikes": gdjs.Level4Code.GDspikesObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDexplosionObjects1Objects = Hashtable.newFrom({"explosion": gdjs.Level4Code.GDexplosionObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDpermaSpikeObjects1Objects = Hashtable.newFrom({"permaSpike": gdjs.Level4Code.GDpermaSpikeObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDdemonObjects1Objects = Hashtable.newFrom({"demon": gdjs.Level4Code.GDdemonObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDdemonObjects1Objects = Hashtable.newFrom({"demon": gdjs.Level4Code.GDdemonObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwallObjects1ObjectsGDgdjs_46Level4Code_46GDwallRightObjects1ObjectsGDgdjs_46Level4Code_46GDwallLeftObjects1ObjectsGDgdjs_46Level4Code_46GDdoorObjects1ObjectsGDgdjs_46Level4Code_46GDopenDoorObjects1ObjectsGDgdjs_46Level4Code_46GDlavaBaseObjects1ObjectsGDgdjs_46Level4Code_46GDlavaObjects1Objects = Hashtable.newFrom({"wall": gdjs.Level4Code.GDwallObjects1, "wallRight": gdjs.Level4Code.GDwallRightObjects1, "wallLeft": gdjs.Level4Code.GDwallLeftObjects1, "door": gdjs.Level4Code.GDdoorObjects1, "openDoor": gdjs.Level4Code.GDopenDoorObjects1, "lavaBase": gdjs.Level4Code.GDlavaBaseObjects1, "lava": gdjs.Level4Code.GDlavaObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwallObjects1ObjectsGDgdjs_46Level4Code_46GDwallRightObjects1ObjectsGDgdjs_46Level4Code_46GDwallLeftObjects1ObjectsGDgdjs_46Level4Code_46GDdoorObjects1ObjectsGDgdjs_46Level4Code_46GDopenDoorObjects1ObjectsGDgdjs_46Level4Code_46GDlavaBaseObjects1ObjectsGDgdjs_46Level4Code_46GDlavaObjects1Objects = Hashtable.newFrom({"wall": gdjs.Level4Code.GDwallObjects1, "wallRight": gdjs.Level4Code.GDwallRightObjects1, "wallLeft": gdjs.Level4Code.GDwallLeftObjects1, "door": gdjs.Level4Code.GDdoorObjects1, "openDoor": gdjs.Level4Code.GDopenDoorObjects1, "lavaBase": gdjs.Level4Code.GDlavaBaseObjects1, "lava": gdjs.Level4Code.GDlavaObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDdemonObjects1Objects = Hashtable.newFrom({"demon": gdjs.Level4Code.GDdemonObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDdemonObjects1Objects = Hashtable.newFrom({"demon": gdjs.Level4Code.GDdemonObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDenemyHealthBarObjects2Objects = Hashtable.newFrom({"enemyHealthBar": gdjs.Level4Code.GDenemyHealthBarObjects2});gdjs.Level4Code.eventsList0x84d058 = function(runtimeScene) {
 
-}; //End of gdjs.Level4Code.eventsList0x8f4cc8
-gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDsentryObjects1Objects = Hashtable.newFrom({"sentry": gdjs.Level4Code.GDsentryObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDprojectileObjects1Objects = Hashtable.newFrom({"projectile": gdjs.Level4Code.GDprojectileObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects2Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects2});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDsentryObjects2Objects = Hashtable.newFrom({"sentry": gdjs.Level4Code.GDsentryObjects2});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDprojectileObjects2Objects = Hashtable.newFrom({"projectile": gdjs.Level4Code.GDprojectileObjects2});gdjs.Level4Code.eventsList0x8f5a88 = function(runtimeScene) {
+}; //End of gdjs.Level4Code.eventsList0x84d058
+gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDsentryObjects1Objects = Hashtable.newFrom({"sentry": gdjs.Level4Code.GDsentryObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDprojectileObjects1Objects = Hashtable.newFrom({"projectile": gdjs.Level4Code.GDprojectileObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects2Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects2});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDsentryObjects2Objects = Hashtable.newFrom({"sentry": gdjs.Level4Code.GDsentryObjects2});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDprojectileObjects2Objects = Hashtable.newFrom({"projectile": gdjs.Level4Code.GDprojectileObjects2});gdjs.Level4Code.eventsList0xaf29b8 = function(runtimeScene) {
 
-}; //End of gdjs.Level4Code.eventsList0x8f5a88
-gdjs.Level4Code.eventsList0x8f5928 = function(runtimeScene) {
+}; //End of gdjs.Level4Code.eventsList0xaf29b8
+gdjs.Level4Code.eventsList0x760180 = function(runtimeScene) {
 
 {
 
@@ -339,18 +348,11 @@ gdjs.Level4Code.condition0IsTrue_0.val = gdjs.evtTools.object.distanceTest(gdjs.
 }
 
 
-}; //End of gdjs.Level4Code.eventsList0x8f5928
-gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDsentryObjects1Objects = Hashtable.newFrom({"sentry": gdjs.Level4Code.GDsentryObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDprojectileObjects1Objects = Hashtable.newFrom({"projectile": gdjs.Level4Code.GDprojectileObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwallObjects1ObjectsGDgdjs_46Level4Code_46GDwallRightObjects1ObjectsGDgdjs_46Level4Code_46GDwallLeftObjects1ObjectsGDgdjs_46Level4Code_46GDdoorObjects1ObjectsGDgdjs_46Level4Code_46GDopenDoorObjects1ObjectsGDgdjs_46Level4Code_46GDlavaBaseObjects1ObjectsGDgdjs_46Level4Code_46GDlavaObjects1Objects = Hashtable.newFrom({"wall": gdjs.Level4Code.GDwallObjects1, "wallRight": gdjs.Level4Code.GDwallRightObjects1, "wallLeft": gdjs.Level4Code.GDwallLeftObjects1, "door": gdjs.Level4Code.GDdoorObjects1, "openDoor": gdjs.Level4Code.GDopenDoorObjects1, "lavaBase": gdjs.Level4Code.GDlavaBaseObjects1, "lava": gdjs.Level4Code.GDlavaObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDenemyHealthBarObjects2Objects = Hashtable.newFrom({"enemyHealthBar": gdjs.Level4Code.GDenemyHealthBarObjects2});gdjs.Level4Code.eventsList0x692728 = function(runtimeScene) {
+}; //End of gdjs.Level4Code.eventsList0x760180
+gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDsentryObjects1Objects = Hashtable.newFrom({"sentry": gdjs.Level4Code.GDsentryObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDprojectileObjects1Objects = Hashtable.newFrom({"projectile": gdjs.Level4Code.GDprojectileObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwallObjects1ObjectsGDgdjs_46Level4Code_46GDwallRightObjects1ObjectsGDgdjs_46Level4Code_46GDwallLeftObjects1ObjectsGDgdjs_46Level4Code_46GDdoorObjects1ObjectsGDgdjs_46Level4Code_46GDopenDoorObjects1ObjectsGDgdjs_46Level4Code_46GDlavaBaseObjects1ObjectsGDgdjs_46Level4Code_46GDlavaObjects1Objects = Hashtable.newFrom({"wall": gdjs.Level4Code.GDwallObjects1, "wallRight": gdjs.Level4Code.GDwallRightObjects1, "wallLeft": gdjs.Level4Code.GDwallLeftObjects1, "door": gdjs.Level4Code.GDdoorObjects1, "openDoor": gdjs.Level4Code.GDopenDoorObjects1, "lavaBase": gdjs.Level4Code.GDlavaBaseObjects1, "lava": gdjs.Level4Code.GDlavaObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDenemyHealthBarObjects2Objects = Hashtable.newFrom({"enemyHealthBar": gdjs.Level4Code.GDenemyHealthBarObjects2});gdjs.Level4Code.eventsList0x80b1d0 = function(runtimeScene) {
 
-}; //End of gdjs.Level4Code.eventsList0x692728
-gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDzombieObjects1Objects = Hashtable.newFrom({"zombie": gdjs.Level4Code.GDzombieObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDzombieObjects1Objects = Hashtable.newFrom({"zombie": gdjs.Level4Code.GDzombieObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwallObjects1ObjectsGDgdjs_46Level4Code_46GDwallRightObjects1ObjectsGDgdjs_46Level4Code_46GDwallLeftObjects1ObjectsGDgdjs_46Level4Code_46GDdoorObjects1ObjectsGDgdjs_46Level4Code_46GDopenDoorObjects1ObjectsGDgdjs_46Level4Code_46GDlavaBaseObjects1ObjectsGDgdjs_46Level4Code_46GDlavaObjects1Objects = Hashtable.newFrom({"wall": gdjs.Level4Code.GDwallObjects1, "wallRight": gdjs.Level4Code.GDwallRightObjects1, "wallLeft": gdjs.Level4Code.GDwallLeftObjects1, "door": gdjs.Level4Code.GDdoorObjects1, "openDoor": gdjs.Level4Code.GDopenDoorObjects1, "lavaBase": gdjs.Level4Code.GDlavaBaseObjects1, "lava": gdjs.Level4Code.GDlavaObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwallObjects1ObjectsGDgdjs_46Level4Code_46GDwallRightObjects1ObjectsGDgdjs_46Level4Code_46GDwallLeftObjects1ObjectsGDgdjs_46Level4Code_46GDdoorObjects1ObjectsGDgdjs_46Level4Code_46GDopenDoorObjects1ObjectsGDgdjs_46Level4Code_46GDlavaBaseObjects1ObjectsGDgdjs_46Level4Code_46GDlavaObjects1Objects = Hashtable.newFrom({"wall": gdjs.Level4Code.GDwallObjects1, "wallRight": gdjs.Level4Code.GDwallRightObjects1, "wallLeft": gdjs.Level4Code.GDwallLeftObjects1, "door": gdjs.Level4Code.GDdoorObjects1, "openDoor": gdjs.Level4Code.GDopenDoorObjects1, "lavaBase": gdjs.Level4Code.GDlavaBaseObjects1, "lava": gdjs.Level4Code.GDlavaObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDzombieObjects1Objects = Hashtable.newFrom({"zombie": gdjs.Level4Code.GDzombieObjects1});gdjs.Level4Code.eventsList0x693110 = function(runtimeScene) {
-
-{
-
-
-
-}
-
+}; //End of gdjs.Level4Code.eventsList0x80b1d0
+gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDzombieObjects1Objects = Hashtable.newFrom({"zombie": gdjs.Level4Code.GDzombieObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDzombieObjects1Objects = Hashtable.newFrom({"zombie": gdjs.Level4Code.GDzombieObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwallObjects1ObjectsGDgdjs_46Level4Code_46GDwallRightObjects1ObjectsGDgdjs_46Level4Code_46GDwallLeftObjects1ObjectsGDgdjs_46Level4Code_46GDdoorObjects1ObjectsGDgdjs_46Level4Code_46GDopenDoorObjects1ObjectsGDgdjs_46Level4Code_46GDlavaBaseObjects1ObjectsGDgdjs_46Level4Code_46GDlavaObjects1Objects = Hashtable.newFrom({"wall": gdjs.Level4Code.GDwallObjects1, "wallRight": gdjs.Level4Code.GDwallRightObjects1, "wallLeft": gdjs.Level4Code.GDwallLeftObjects1, "door": gdjs.Level4Code.GDdoorObjects1, "openDoor": gdjs.Level4Code.GDopenDoorObjects1, "lavaBase": gdjs.Level4Code.GDlavaBaseObjects1, "lava": gdjs.Level4Code.GDlavaObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwallObjects1ObjectsGDgdjs_46Level4Code_46GDwallRightObjects1ObjectsGDgdjs_46Level4Code_46GDwallLeftObjects1ObjectsGDgdjs_46Level4Code_46GDdoorObjects1ObjectsGDgdjs_46Level4Code_46GDopenDoorObjects1ObjectsGDgdjs_46Level4Code_46GDlavaBaseObjects1ObjectsGDgdjs_46Level4Code_46GDlavaObjects1Objects = Hashtable.newFrom({"wall": gdjs.Level4Code.GDwallObjects1, "wallRight": gdjs.Level4Code.GDwallRightObjects1, "wallLeft": gdjs.Level4Code.GDwallLeftObjects1, "door": gdjs.Level4Code.GDdoorObjects1, "openDoor": gdjs.Level4Code.GDopenDoorObjects1, "lavaBase": gdjs.Level4Code.GDlavaBaseObjects1, "lava": gdjs.Level4Code.GDlavaObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDzombieObjects1Objects = Hashtable.newFrom({"zombie": gdjs.Level4Code.GDzombieObjects1});gdjs.Level4Code.eventsList0x848f08 = function(runtimeScene) {
 
 {
 
@@ -359,14 +361,21 @@ gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDzombieObjects1Objects = Hashtable.n
 }
 
 
-}; //End of gdjs.Level4Code.eventsList0x693110
-gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDzombieObjects1Objects = Hashtable.newFrom({"zombie": gdjs.Level4Code.GDzombieObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDenemyHealthBarObjects2Objects = Hashtable.newFrom({"enemyHealthBar": gdjs.Level4Code.GDenemyHealthBarObjects2});gdjs.Level4Code.eventsList0x68e680 = function(runtimeScene) {
+{
 
-}; //End of gdjs.Level4Code.eventsList0x68e680
-gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwizardObjects1Objects = Hashtable.newFrom({"wizard": gdjs.Level4Code.GDwizardObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwizardProjectileObjects1Objects = Hashtable.newFrom({"wizardProjectile": gdjs.Level4Code.GDwizardProjectileObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwizardObjects1Objects = Hashtable.newFrom({"wizard": gdjs.Level4Code.GDwizardObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwallObjects1ObjectsGDgdjs_46Level4Code_46GDwallRightObjects1ObjectsGDgdjs_46Level4Code_46GDwallLeftObjects1ObjectsGDgdjs_46Level4Code_46GDdoorObjects1ObjectsGDgdjs_46Level4Code_46GDopenDoorObjects1ObjectsGDgdjs_46Level4Code_46GDlavaBaseObjects1ObjectsGDgdjs_46Level4Code_46GDlavaObjects1Objects = Hashtable.newFrom({"wall": gdjs.Level4Code.GDwallObjects1, "wallRight": gdjs.Level4Code.GDwallRightObjects1, "wallLeft": gdjs.Level4Code.GDwallLeftObjects1, "door": gdjs.Level4Code.GDdoorObjects1, "openDoor": gdjs.Level4Code.GDopenDoorObjects1, "lavaBase": gdjs.Level4Code.GDlavaBaseObjects1, "lava": gdjs.Level4Code.GDlavaObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwallObjects1ObjectsGDgdjs_46Level4Code_46GDwallRightObjects1ObjectsGDgdjs_46Level4Code_46GDwallLeftObjects1ObjectsGDgdjs_46Level4Code_46GDdoorObjects1ObjectsGDgdjs_46Level4Code_46GDopenDoorObjects1ObjectsGDgdjs_46Level4Code_46GDlavaBaseObjects1ObjectsGDgdjs_46Level4Code_46GDlavaObjects1Objects = Hashtable.newFrom({"wall": gdjs.Level4Code.GDwallObjects1, "wallRight": gdjs.Level4Code.GDwallRightObjects1, "wallLeft": gdjs.Level4Code.GDwallLeftObjects1, "door": gdjs.Level4Code.GDdoorObjects1, "openDoor": gdjs.Level4Code.GDopenDoorObjects1, "lavaBase": gdjs.Level4Code.GDlavaBaseObjects1, "lava": gdjs.Level4Code.GDlavaObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwizardObjects1Objects = Hashtable.newFrom({"wizard": gdjs.Level4Code.GDwizardObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects2Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects2});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwizardObjects2Objects = Hashtable.newFrom({"wizard": gdjs.Level4Code.GDwizardObjects2});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwizardProjectileObjects2Objects = Hashtable.newFrom({"wizardProjectile": gdjs.Level4Code.GDwizardProjectileObjects2});gdjs.Level4Code.eventsList0x684160 = function(runtimeScene) {
 
-}; //End of gdjs.Level4Code.eventsList0x684160
-gdjs.Level4Code.eventsList0x684000 = function(runtimeScene) {
+
+}
+
+
+}; //End of gdjs.Level4Code.eventsList0x848f08
+gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDzombieObjects1Objects = Hashtable.newFrom({"zombie": gdjs.Level4Code.GDzombieObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDenemyHealthBarObjects2Objects = Hashtable.newFrom({"enemyHealthBar": gdjs.Level4Code.GDenemyHealthBarObjects2});gdjs.Level4Code.eventsList0xb33040 = function(runtimeScene) {
+
+}; //End of gdjs.Level4Code.eventsList0xb33040
+gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwizardObjects1Objects = Hashtable.newFrom({"wizard": gdjs.Level4Code.GDwizardObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwizardProjectileObjects1Objects = Hashtable.newFrom({"wizardProjectile": gdjs.Level4Code.GDwizardProjectileObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwizardObjects1Objects = Hashtable.newFrom({"wizard": gdjs.Level4Code.GDwizardObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwallObjects1ObjectsGDgdjs_46Level4Code_46GDwallRightObjects1ObjectsGDgdjs_46Level4Code_46GDwallLeftObjects1ObjectsGDgdjs_46Level4Code_46GDdoorObjects1ObjectsGDgdjs_46Level4Code_46GDopenDoorObjects1ObjectsGDgdjs_46Level4Code_46GDlavaBaseObjects1ObjectsGDgdjs_46Level4Code_46GDlavaObjects1Objects = Hashtable.newFrom({"wall": gdjs.Level4Code.GDwallObjects1, "wallRight": gdjs.Level4Code.GDwallRightObjects1, "wallLeft": gdjs.Level4Code.GDwallLeftObjects1, "door": gdjs.Level4Code.GDdoorObjects1, "openDoor": gdjs.Level4Code.GDopenDoorObjects1, "lavaBase": gdjs.Level4Code.GDlavaBaseObjects1, "lava": gdjs.Level4Code.GDlavaObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwallObjects1ObjectsGDgdjs_46Level4Code_46GDwallRightObjects1ObjectsGDgdjs_46Level4Code_46GDwallLeftObjects1ObjectsGDgdjs_46Level4Code_46GDdoorObjects1ObjectsGDgdjs_46Level4Code_46GDopenDoorObjects1ObjectsGDgdjs_46Level4Code_46GDlavaBaseObjects1ObjectsGDgdjs_46Level4Code_46GDlavaObjects1Objects = Hashtable.newFrom({"wall": gdjs.Level4Code.GDwallObjects1, "wallRight": gdjs.Level4Code.GDwallRightObjects1, "wallLeft": gdjs.Level4Code.GDwallLeftObjects1, "door": gdjs.Level4Code.GDdoorObjects1, "openDoor": gdjs.Level4Code.GDopenDoorObjects1, "lavaBase": gdjs.Level4Code.GDlavaBaseObjects1, "lava": gdjs.Level4Code.GDlavaObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwizardObjects1Objects = Hashtable.newFrom({"wizard": gdjs.Level4Code.GDwizardObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects2Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects2});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwizardObjects2Objects = Hashtable.newFrom({"wizard": gdjs.Level4Code.GDwizardObjects2});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwizardProjectileObjects2Objects = Hashtable.newFrom({"wizardProjectile": gdjs.Level4Code.GDwizardProjectileObjects2});gdjs.Level4Code.eventsList0x8b2f88 = function(runtimeScene) {
+
+}; //End of gdjs.Level4Code.eventsList0x8b2f88
+gdjs.Level4Code.eventsList0xaf3890 = function(runtimeScene) {
 
 {
 
@@ -403,11 +412,11 @@ gdjs.Level4Code.condition0IsTrue_0.val = gdjs.evtTools.object.distanceTest(gdjs.
 }
 
 
-}; //End of gdjs.Level4Code.eventsList0x684000
-gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwizardObjects1Objects = Hashtable.newFrom({"wizard": gdjs.Level4Code.GDwizardObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwizardProjectileObjects1Objects = Hashtable.newFrom({"wizardProjectile": gdjs.Level4Code.GDwizardProjectileObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwallObjects1ObjectsGDgdjs_46Level4Code_46GDwallRightObjects1ObjectsGDgdjs_46Level4Code_46GDwallLeftObjects1ObjectsGDgdjs_46Level4Code_46GDdoorObjects1ObjectsGDgdjs_46Level4Code_46GDopenDoorObjects1ObjectsGDgdjs_46Level4Code_46GDlavaBaseObjects1ObjectsGDgdjs_46Level4Code_46GDlavaObjects1Objects = Hashtable.newFrom({"wall": gdjs.Level4Code.GDwallObjects1, "wallRight": gdjs.Level4Code.GDwallRightObjects1, "wallLeft": gdjs.Level4Code.GDwallLeftObjects1, "door": gdjs.Level4Code.GDdoorObjects1, "openDoor": gdjs.Level4Code.GDopenDoorObjects1, "lavaBase": gdjs.Level4Code.GDlavaBaseObjects1, "lava": gdjs.Level4Code.GDlavaObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwallObjects1ObjectsGDgdjs_46Level4Code_46GDwallRightObjects1ObjectsGDgdjs_46Level4Code_46GDwallLeftObjects1ObjectsGDgdjs_46Level4Code_46GDdoorObjects1ObjectsGDgdjs_46Level4Code_46GDopenDoorObjects1ObjectsGDgdjs_46Level4Code_46GDlavaBaseObjects1ObjectsGDgdjs_46Level4Code_46GDlavaObjects1Objects = Hashtable.newFrom({"wall": gdjs.Level4Code.GDwallObjects1, "wallRight": gdjs.Level4Code.GDwallRightObjects1, "wallLeft": gdjs.Level4Code.GDwallLeftObjects1, "door": gdjs.Level4Code.GDdoorObjects1, "openDoor": gdjs.Level4Code.GDopenDoorObjects1, "lavaBase": gdjs.Level4Code.GDlavaBaseObjects1, "lava": gdjs.Level4Code.GDlavaObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwizardProjectileObjects1Objects = Hashtable.newFrom({"wizardProjectile": gdjs.Level4Code.GDwizardProjectileObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwallObjects1ObjectsGDgdjs_46Level4Code_46GDwallRightObjects1ObjectsGDgdjs_46Level4Code_46GDwallLeftObjects1ObjectsGDgdjs_46Level4Code_46GDdoorObjects1ObjectsGDgdjs_46Level4Code_46GDopenDoorObjects1ObjectsGDgdjs_46Level4Code_46GDlavaBaseObjects1ObjectsGDgdjs_46Level4Code_46GDlavaObjects1Objects = Hashtable.newFrom({"wall": gdjs.Level4Code.GDwallObjects1, "wallRight": gdjs.Level4Code.GDwallRightObjects1, "wallLeft": gdjs.Level4Code.GDwallLeftObjects1, "door": gdjs.Level4Code.GDdoorObjects1, "openDoor": gdjs.Level4Code.GDopenDoorObjects1, "lavaBase": gdjs.Level4Code.GDlavaBaseObjects1, "lava": gdjs.Level4Code.GDlavaObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDenemyHealthBarObjects2Objects = Hashtable.newFrom({"enemyHealthBar": gdjs.Level4Code.GDenemyHealthBarObjects2});gdjs.Level4Code.eventsList0x9185f0 = function(runtimeScene) {
+}; //End of gdjs.Level4Code.eventsList0xaf3890
+gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwizardObjects1Objects = Hashtable.newFrom({"wizard": gdjs.Level4Code.GDwizardObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwizardProjectileObjects1Objects = Hashtable.newFrom({"wizardProjectile": gdjs.Level4Code.GDwizardProjectileObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwallObjects1ObjectsGDgdjs_46Level4Code_46GDwallRightObjects1ObjectsGDgdjs_46Level4Code_46GDwallLeftObjects1ObjectsGDgdjs_46Level4Code_46GDdoorObjects1ObjectsGDgdjs_46Level4Code_46GDopenDoorObjects1ObjectsGDgdjs_46Level4Code_46GDlavaBaseObjects1ObjectsGDgdjs_46Level4Code_46GDlavaObjects1Objects = Hashtable.newFrom({"wall": gdjs.Level4Code.GDwallObjects1, "wallRight": gdjs.Level4Code.GDwallRightObjects1, "wallLeft": gdjs.Level4Code.GDwallLeftObjects1, "door": gdjs.Level4Code.GDdoorObjects1, "openDoor": gdjs.Level4Code.GDopenDoorObjects1, "lavaBase": gdjs.Level4Code.GDlavaBaseObjects1, "lava": gdjs.Level4Code.GDlavaObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwallObjects1ObjectsGDgdjs_46Level4Code_46GDwallRightObjects1ObjectsGDgdjs_46Level4Code_46GDwallLeftObjects1ObjectsGDgdjs_46Level4Code_46GDdoorObjects1ObjectsGDgdjs_46Level4Code_46GDopenDoorObjects1ObjectsGDgdjs_46Level4Code_46GDlavaBaseObjects1ObjectsGDgdjs_46Level4Code_46GDlavaObjects1Objects = Hashtable.newFrom({"wall": gdjs.Level4Code.GDwallObjects1, "wallRight": gdjs.Level4Code.GDwallRightObjects1, "wallLeft": gdjs.Level4Code.GDwallLeftObjects1, "door": gdjs.Level4Code.GDdoorObjects1, "openDoor": gdjs.Level4Code.GDopenDoorObjects1, "lavaBase": gdjs.Level4Code.GDlavaBaseObjects1, "lava": gdjs.Level4Code.GDlavaObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwizardProjectileObjects1Objects = Hashtable.newFrom({"wizardProjectile": gdjs.Level4Code.GDwizardProjectileObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwallObjects1ObjectsGDgdjs_46Level4Code_46GDwallRightObjects1ObjectsGDgdjs_46Level4Code_46GDwallLeftObjects1ObjectsGDgdjs_46Level4Code_46GDdoorObjects1ObjectsGDgdjs_46Level4Code_46GDopenDoorObjects1ObjectsGDgdjs_46Level4Code_46GDlavaBaseObjects1ObjectsGDgdjs_46Level4Code_46GDlavaObjects1Objects = Hashtable.newFrom({"wall": gdjs.Level4Code.GDwallObjects1, "wallRight": gdjs.Level4Code.GDwallRightObjects1, "wallLeft": gdjs.Level4Code.GDwallLeftObjects1, "door": gdjs.Level4Code.GDdoorObjects1, "openDoor": gdjs.Level4Code.GDopenDoorObjects1, "lavaBase": gdjs.Level4Code.GDlavaBaseObjects1, "lava": gdjs.Level4Code.GDlavaObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDenemyHealthBarObjects2Objects = Hashtable.newFrom({"enemyHealthBar": gdjs.Level4Code.GDenemyHealthBarObjects2});gdjs.Level4Code.eventsList0xb30580 = function(runtimeScene) {
 
-}; //End of gdjs.Level4Code.eventsList0x9185f0
-gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDhealthPowerupObjects1Objects = Hashtable.newFrom({"healthPowerup": gdjs.Level4Code.GDhealthPowerupObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDswordPowerupObjects1Objects = Hashtable.newFrom({"swordPowerup": gdjs.Level4Code.GDswordPowerupObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDHPpotionObjects1Objects = Hashtable.newFrom({"HPpotion": gdjs.Level4Code.GDHPpotionObjects1});gdjs.Level4Code.eventsList0x75f780 = function(runtimeScene) {
+}; //End of gdjs.Level4Code.eventsList0xb30580
+gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDhealthPowerupObjects1Objects = Hashtable.newFrom({"healthPowerup": gdjs.Level4Code.GDhealthPowerupObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDswordPowerupObjects1Objects = Hashtable.newFrom({"swordPowerup": gdjs.Level4Code.GDswordPowerupObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDHPpotionObjects1Objects = Hashtable.newFrom({"HPpotion": gdjs.Level4Code.GDHPpotionObjects1});gdjs.Level4Code.eventsList0x764a58 = function(runtimeScene) {
 
 {
 
@@ -432,8 +441,8 @@ gdjs.Level4Code.GDplayerKnightObjects1.length = k;}if (gdjs.Level4Code.condition
 }
 
 
-}; //End of gdjs.Level4Code.eventsList0x75f780
-gdjs.Level4Code.eventsList0x75f348 = function(runtimeScene) {
+}; //End of gdjs.Level4Code.eventsList0x764a58
+gdjs.Level4Code.eventsList0xad1058 = function(runtimeScene) {
 
 {
 
@@ -490,17 +499,17 @@ gdjs.Level4Code.GDHPpotionTextObjects1.createFrom(runtimeScene.getObjects("HPpot
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "hideHPreplenish");
 }
 { //Subevents
-gdjs.Level4Code.eventsList0x75f780(runtimeScene);} //End of subevents
+gdjs.Level4Code.eventsList0x764a58(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.Level4Code.eventsList0x75f348
-gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDinvinciblePowerupObjects1Objects = Hashtable.newFrom({"invinciblePowerup": gdjs.Level4Code.GDinvinciblePowerupObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwizardObjects1Objects = Hashtable.newFrom({"wizard": gdjs.Level4Code.GDwizardObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDlavaObjects2Objects = Hashtable.newFrom({"lava": gdjs.Level4Code.GDlavaObjects2});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDlavaBaseObjects2Objects = Hashtable.newFrom({"lavaBase": gdjs.Level4Code.GDlavaBaseObjects2});gdjs.Level4Code.eventsList0x7e2148 = function(runtimeScene) {
+}; //End of gdjs.Level4Code.eventsList0xad1058
+gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDplayerKnightObjects1Objects = Hashtable.newFrom({"playerKnight": gdjs.Level4Code.GDplayerKnightObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDinvinciblePowerupObjects1Objects = Hashtable.newFrom({"invinciblePowerup": gdjs.Level4Code.GDinvinciblePowerupObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDwizardObjects1Objects = Hashtable.newFrom({"wizard": gdjs.Level4Code.GDwizardObjects1});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDlavaObjects2Objects = Hashtable.newFrom({"lava": gdjs.Level4Code.GDlavaObjects2});gdjs.Level4Code.mapOfGDgdjs_46Level4Code_46GDlavaBaseObjects2Objects = Hashtable.newFrom({"lavaBase": gdjs.Level4Code.GDlavaBaseObjects2});gdjs.Level4Code.eventsList0xb34528 = function(runtimeScene) {
 
-}; //End of gdjs.Level4Code.eventsList0x7e2148
-gdjs.Level4Code.eventsList0x8d3b20 = function(runtimeScene) {
+}; //End of gdjs.Level4Code.eventsList0xb34528
+gdjs.Level4Code.eventsList0x7cc698 = function(runtimeScene) {
 
 {
 
@@ -537,7 +546,7 @@ if (gdjs.Level4Code.condition1IsTrue_0.val)
 }
 
 
-}; //End of gdjs.Level4Code.eventsList0x8d3b20
+}; //End of gdjs.Level4Code.eventsList0x7cc698
 gdjs.Level4Code.eventsList0xb2358 = function(runtimeScene) {
 
 {
@@ -688,13 +697,6 @@ gdjs.Level4Code.GDplayerKnightObjects1.createFrom(runtimeScene.getObjects("playe
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "playHitAnim");
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "enemyCanBeHit");
 }}
-
-}
-
-
-{
-
-
 
 }
 
@@ -853,7 +855,7 @@ gdjs.Level4Code.conditionTrue_1.val = (gdjs.evtTools.object.pickedObjectsCount(g
 }if ( gdjs.Level4Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level4Code.conditionTrue_1 = gdjs.Level4Code.condition1IsTrue_0;
-gdjs.Level4Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8543244);
+gdjs.Level4Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(6916284);
 }
 }}
 if (gdjs.Level4Code.condition1IsTrue_0.val) {
@@ -921,6 +923,7 @@ gdjs.Level4Code.GDplayerKnightObjects1.length = k;}if (gdjs.Level4Code.condition
 {for(var i = 0, len = gdjs.Level4Code.GDplayerKnightObjects1.length ;i < len;++i) {
     gdjs.Level4Code.GDplayerKnightObjects1[i].deleteFromScene(runtimeScene);
 }
+}{runtimeScene.getGame().getVariables().getFromIndex(7).add(1);
 }}
 
 }
@@ -1031,7 +1034,7 @@ gdjs.Level4Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsed
 }if (gdjs.Level4Code.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.Level4Code.eventsList0x9e1848(runtimeScene);} //End of subevents
+gdjs.Level4Code.eventsList0x8488f0(runtimeScene);} //End of subevents
 }
 
 }
@@ -1283,7 +1286,7 @@ for(var i = 0, k = 0, l = gdjs.Level4Code.GDplayerKnightObjects1.length;i<l;++i)
 gdjs.Level4Code.GDplayerKnightObjects1.length = k;}if ( gdjs.Level4Code.condition1IsTrue_0.val ) {
 {
 {gdjs.Level4Code.conditionTrue_1 = gdjs.Level4Code.condition2IsTrue_0;
-gdjs.Level4Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8269492);
+gdjs.Level4Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11337652);
 }
 }}
 }
@@ -1510,7 +1513,7 @@ for(var i = 0, len = gdjs.Level4Code.GDwizardObjects1.length ;i < len;++i) {
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "enemyCanBeHit");
 }
 { //Subevents
-gdjs.Level4Code.eventsList0x70c7b0(runtimeScene);} //End of subevents
+gdjs.Level4Code.eventsList0x8b0d30(runtimeScene);} //End of subevents
 }
 
 }
@@ -1605,7 +1608,7 @@ for(var i = 0, k = 0, l = gdjs.Level4Code.GDplayerKnightObjects1.length;i<l;++i)
 gdjs.Level4Code.GDplayerKnightObjects1.length = k;}if ( gdjs.Level4Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level4Code.conditionTrue_1 = gdjs.Level4Code.condition1IsTrue_0;
-gdjs.Level4Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10094516);
+gdjs.Level4Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(6913596);
 }
 }}
 if (gdjs.Level4Code.condition1IsTrue_0.val) {
@@ -2224,7 +2227,7 @@ gdjs.Level4Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsed
 }if (gdjs.Level4Code.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.Level4Code.eventsList0x8f5928(runtimeScene);} //End of subevents
+gdjs.Level4Code.eventsList0x760180(runtimeScene);} //End of subevents
 }
 
 }
@@ -2381,7 +2384,7 @@ gdjs.Level4Code.condition0IsTrue_0.val = gdjs.evtTools.object.distanceTest(gdjs.
 }
 }
 { //Subevents
-gdjs.Level4Code.eventsList0x693110(runtimeScene);} //End of subevents
+gdjs.Level4Code.eventsList0x848f08(runtimeScene);} //End of subevents
 }
 
 }
@@ -2576,7 +2579,7 @@ gdjs.Level4Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsed
 }if (gdjs.Level4Code.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.Level4Code.eventsList0x684000(runtimeScene);} //End of subevents
+gdjs.Level4Code.eventsList0xaf3890(runtimeScene);} //End of subevents
 }
 
 }
@@ -2868,7 +2871,7 @@ gdjs.Level4Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionT
 }if (gdjs.Level4Code.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.Level4Code.eventsList0x75f348(runtimeScene);} //End of subevents
+gdjs.Level4Code.eventsList0xad1058(runtimeScene);} //End of subevents
 }
 
 }
@@ -3042,7 +3045,7 @@ gdjs.Level4Code.condition0IsTrue_0.val = gdjs.evtTools.object.pickedObjectsCount
 }if ( gdjs.Level4Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level4Code.conditionTrue_1 = gdjs.Level4Code.condition1IsTrue_0;
-gdjs.Level4Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(10087908);
+gdjs.Level4Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9100660);
 }
 }}
 if (gdjs.Level4Code.condition1IsTrue_0.val) {
@@ -3058,7 +3061,7 @@ gdjs.Level4Code.GDpathOpenedObjects1.createFrom(runtimeScene.getObjects("pathOpe
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "hidePathText");
 }
 { //Subevents
-gdjs.Level4Code.eventsList0x8d3b20(runtimeScene);} //End of subevents
+gdjs.Level4Code.eventsList0x7cc698(runtimeScene);} //End of subevents
 }
 
 }
@@ -3238,6 +3241,15 @@ gdjs.Level4Code.GDfogObjects3.length = 0;
 gdjs.Level4Code.GDblockerObjects1.length = 0;
 gdjs.Level4Code.GDblockerObjects2.length = 0;
 gdjs.Level4Code.GDblockerObjects3.length = 0;
+gdjs.Level4Code.GDmainMenuObjects1.length = 0;
+gdjs.Level4Code.GDmainMenuObjects2.length = 0;
+gdjs.Level4Code.GDmainMenuObjects3.length = 0;
+gdjs.Level4Code.GDquitButtonObjects1.length = 0;
+gdjs.Level4Code.GDquitButtonObjects2.length = 0;
+gdjs.Level4Code.GDquitButtonObjects3.length = 0;
+gdjs.Level4Code.GDdeathsObjects1.length = 0;
+gdjs.Level4Code.GDdeathsObjects2.length = 0;
+gdjs.Level4Code.GDdeathsObjects3.length = 0;
 
 gdjs.Level4Code.eventsList0xb2358(runtimeScene);
 return;

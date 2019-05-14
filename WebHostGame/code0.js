@@ -93,6 +93,12 @@ gdjs.StartupCode.GDfogObjects1= [];
 gdjs.StartupCode.GDfogObjects2= [];
 gdjs.StartupCode.GDblockerObjects1= [];
 gdjs.StartupCode.GDblockerObjects2= [];
+gdjs.StartupCode.GDmainMenuObjects1= [];
+gdjs.StartupCode.GDmainMenuObjects2= [];
+gdjs.StartupCode.GDquitButtonObjects1= [];
+gdjs.StartupCode.GDquitButtonObjects2= [];
+gdjs.StartupCode.GDdeathsObjects1= [];
+gdjs.StartupCode.GDdeathsObjects2= [];
 gdjs.StartupCode.GDNewObjectObjects1= [];
 gdjs.StartupCode.GDNewObjectObjects2= [];
 gdjs.StartupCode.GDtitleObjects1= [];
@@ -275,7 +281,6 @@ gdjs.StartupCode.condition1IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRelea
 }}
 if (gdjs.StartupCode.condition1IsTrue_0.val) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "FirstLevel", true);
-}{runtimeScene.getGame().getVariables().getFromIndex(7).setNumber(1);
 }}
 
 }
@@ -418,6 +423,12 @@ gdjs.StartupCode.GDfogObjects1.length = 0;
 gdjs.StartupCode.GDfogObjects2.length = 0;
 gdjs.StartupCode.GDblockerObjects1.length = 0;
 gdjs.StartupCode.GDblockerObjects2.length = 0;
+gdjs.StartupCode.GDmainMenuObjects1.length = 0;
+gdjs.StartupCode.GDmainMenuObjects2.length = 0;
+gdjs.StartupCode.GDquitButtonObjects1.length = 0;
+gdjs.StartupCode.GDquitButtonObjects2.length = 0;
+gdjs.StartupCode.GDdeathsObjects1.length = 0;
+gdjs.StartupCode.GDdeathsObjects2.length = 0;
 gdjs.StartupCode.GDNewObjectObjects1.length = 0;
 gdjs.StartupCode.GDNewObjectObjects2.length = 0;
 gdjs.StartupCode.GDtitleObjects1.length = 0;
