@@ -1,0 +1,88 @@
+/* HEADER */
+#header {
+    height: 300px;
+    background: linear-gradient(45deg, #6caced, #39bfda);
+    box-shadow: 0 0 1px 1px #6d9fe1;
+    -moz-box-shadow: 0 0 1px 1px #6d9fe1;
+    -webkit-box-shadow: 0 0 1px 1px #6d9fe1;
+    -o-box-shadow: 0 0 1px 1px #6d9fe1;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+#header-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#header-title {
+    margin-bottom: 15px;
+}
+
+
+/* ABOUT */
+
+#about-content {
+    align-content: center;
+}
+
+#about-content p {
+    max-width: 850px;
+    margin: 0 auto;
+    line-height: 1.6em;
+}
+
+
+/* PORTFOLIO CONTENT */
+
+.project-title {
+    font-size: 26px;
+    margin: 0 0 12px 5px;
+    padding: 3px;
+}
+
+.feature-container {
+    position: relative;
+    max-width: 500px;
+    font-size: 18px;
+}
+
+.feature-heading {
+    font-weight: bold;
+}
+
+.feature-list {
+    margin-top: 0;
+}
+
+
+/* CONTACT & SOCIAL */
+
+#contact-heading {
+    margin-bottom: 10px;
+}
+
+#contact-email {
+    margin: 15px 0 20px 0;
+}
+
+.img-social {
+    margin: 0 5px 0 5px;
+}
+
+#img-linkedin {
+    height: 40px;
+    width: 45px;
+}
+
+#img-github {
+    height: 40px;
+    width: 40px;
+}
+
+.img-pdf {
+    height: 98px;
+    width: 80px;
+    float: right;
+}

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bailey Gardner: Portfolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="navbar.css"/>
+    <link rel="stylesheet" href="global.css"/>
+    <link rel="stylesheet" href="flexgrid.css"/>
+    <link rel="stylesheet" href="index.css"/>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+            crossorigin="anonymous" defer></script>
+</head>
+<body>
+    <!-- include navbar -->
+    <script src="navbar.js"></script>
+<div class="site-container">
+    <!-- header -->
+    <div id="header">
+        <div id="header-content">
+        <h1 id="header-title">Bailey Gardner</h1>
+        <p>Software Development and Games Engineering</p>
+        </div>
+    </div>
+    <div class="vert-line"></div>
+    <!-- about -->
+    <div id="about-content">
+        <a class="anchor" id="about-anchor"></a>
+        <h2>01 About</h2>
+        <p>I'm a programmer with an MSc in Computer Games Engineering and a BSc in Computer Science
+            both from Newcastle University</p>
+    </div>
+    <div class="vert-line"></div>
+    <!-- portfolio -->
+    <div id="portfolio-content">
+        <a class="anchor" id="portfolio-anchor"></a>
+        <h2>02 Portfolio</h2>
+        <div class="grid-container">
+            <!-- BSc project -->
+            <div class="grid-item main-grid-item">
+                <p class="project-title">BSc Dissertation</p>
+                <div class="img-container">
+                    <img height="681" width="1264" src="assets/DissertationImage.png" alt="Terrain">
+                </div>
+                <div class="feature-container">
+                    <span>Points of Interest:</span>
+                    <ul class="feature-list">
+                        <li class="feature-heading">Developed a tool to generate tiles of terrain using various techniques:
+                            <ul>
+                                <li>Perlin Noise</li>
+                                <li>Simplex Noise</li>
+                                <li>Fractal Noise</li>
+                                <li>Diamond-Square Algorithm</li>
+                            </ul>
+                        </li>
+                        <li class="feature-heading">Dissertation paper analysing the results obtained from this tool detailing:
+                            <ul>
+                                <li>Performance</li>
+                                <li>Effectiveness</li>
+                                <li>Use cases</li>
+                            </ul>
+                        </li>
+                        <li class="feature-heading">
+                            <a href="assets/TerrainGenerationDissertation.pdf" target="_blank">Dissertation paper</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <!-- MSc project -->
+            <div class="grid-item main-grid-item">
+                <p class="project-title">MSc Dissertation</p>
+                <div class="iframe-container">
+                    <iframe class="rframe" width="560" height="315" src="https://www.youtube-nocookie.com/embed/v9mYW8_TBC8" title="River Recycle Youtube video"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="feature-container">
+                    <span>Points of Interest</span>
+                    <ul class="feature-list">
+                        <li class="feature-heading">Designed and developed an educational video game to teach players how to recycle.</li>
+                        <li class="feature-heading">Built using the Unity engine</li>
+                        <li class="feature-heading">Specification:
+                            <ul>
+                                <li>Teach the player how to recycle</li>
+                                <li>Fun and engaging</li>
+                                <li>Accessible
+                                    <ul>
+                                        <li>No age restrictions</li>
+                                        <li>Low hardware requirements</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="feature-heading">Dissertation paper detailing:
+                            <ul>
+                                <li>Research</li>
+                                <li>Design</li>
+                                <li>Implementation</li>
+                                <li>Analysis and Evaluation</li>
+                            </ul>
+                        </li>
+                        <li class="feature-heading">
+                            <a href="assets/RiverRecycleDissertation.pdf" target="_blank">Dissertation paper</a>
+                        </li>
+                        <li class="feature-heading">
+                            <a href="https://github.com/BGardner25/RecycleGame" target="_blank">GitHub repository</a>
+                        </li>
+                        <li class="feature-heading">
+                            <a href="https://bgardner25.github.io/RiverRecycle/" target="_blank">Play the game</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- physics & AI -->
+            <div class="grid-item sub-grid-item" id="item-physics">
+                <p class="project-title">Physics Engine & AI</p>
+                <div class="iframe-container">
+                    <iframe class="rframe" width="560" height="315" src="https://www.youtube-nocookie.com/embed/3h46n-xPtrg" title="Physics engine and AI Youtube video"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="feature-container">
+                    <span>Points Of Interest:</span>
+                    <ul class="feature-list">
+                        <li class="feature-heading">OpenGL</li>
+                        <li class="feature-heading">Physics Engine
+                            <ul>
+                                <li>Ray-casting</li>
+                                <li>Collision Detection & Resolution
+                                    <ul>
+                                        <li>Broadphase (Quadtree)</li>
+                                        <li>Narrowphase</li>
+                                        <li>Bounding Volumes
+                                            <ul>
+                                                <li>Sphere</li>
+                                                <li>AABB</li>
+                                                <li>OBB</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="feature-heading">AI
+                            <ul>
+                                <li>State Machine</li>
+                                <li>A* Pathfinding</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- graphics -->
+            <div class="grid-item sub-grid-item" id="item-graphics">
+                <p class="project-title">Graphics Rendering</p>
+                <div class="iframe-container">
+                    <iframe class="rframe" width="560" height="315" src="https://www.youtube-nocookie.com/embed/xtzzN_aIWg4" title="Graphics rendering Youtube video"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="feature-container">
+                    <span>Points Of Interest:</span>
+                    <ul class="feature-list">
+                        <li class="feature-heading">OpenGL</li>
+                        <li class="feature-heading">Shaders</li>
+                        <li class="feature-heading">Phong Lighting</li>
+                        <li class="feature-heading">Water
+                            <ul>
+                                <li>Reflections</li>
+                                <li>Tesselation</li>
+                                <li>Animation</li>
+                            </ul>
+                        </li>
+                        <li class="feature-heading">Landscape
+                            <ul>
+                                <li>Generated from heightmap</li>
+                                <li>Rises over time</li>
+                                <li>Texture blending, determined by terrain steepness</li>
+                            </ul>
+                        </li>
+                        <li class="feature-heading">Miscellaneous
+                            <ul>
+                                <li>Cube map (skybox)</li>
+                                <li>Transparency</li>
+                                <li>Smooth camera movement
+                                    <ul>
+                                        <li>Catmull-Rom Spline</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- unreal -->
+            <div class="grid-item sub-grid-item" id="item-unreal">
+                <p class="project-title">Unreal Engine Prototyping</p>
+                <div class="iframe-container">
+                    <iframe class="rframe" width="560" height="315" src="https://www.youtube-nocookie.com/embed/AMNJqF-n-YE" title="Unreal Engine prototype Youtube video"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="feature-container">
+                    <span>Points Of Interest:</span>
+                    <ul class="feature-list">
+                        <li class="feature-heading">Unreal Engine</li>
+                        <li class="feature-heading">Fast Prototype
+                            <ul>
+                                <li>Demo possible features for a team project</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- mobile -->
+            <div class="grid-item sub-grid-item" id="item-mobile">
+                <p class="project-title">Mobile Note App</p>
+                <div class="iframe-container">
+                    <iframe class="rframe" width="560" height="315" src="https://www.youtube-nocookie.com/embed/qCEVHzrAqt0" title="Android note app Youtube video"
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="feature-container">
+                    <span>Points Of Interest:</span>
+                    <ul class="feature-list">
+                        <li class="feature-heading">Android Development</li>
+                        <li class="feature-heading">Note Taking:
+                            <ul>
+                                <li>Add, delete and edit notes</li>
+                                <li>Add quick notes</li>
+                            </ul>
+                        </li>
+                        <li class="feature-heading">Categories
+                            <ul>
+                                <li>User defined categories</li>
+                                <li>Assign notes to categories</li>
+                                <li>Sort notes by category</li>
+                            </ul>
+                        </li>
+                        <li class="feature-heading">User Authentication
+                            <ul>
+                                <li>Signup with valid email</li>
+                                <li>Login to access personalised notes</li>
+                            </ul>
+                        </li>
+                        <li class="feature-heading">Database
+                            <ul>
+                                <li>Google Firebase</li>
+                                <li>Online and offline note storage
+                                    <ul>
+                                        <li>Notes stored locally then saved to online database when possible</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="vert-line"></div>
+    <!-- contact -->
+    <div id="contact-content">
+        <a class="anchor" id="contact-anchor"></a>
+        <h2 id="contact-heading">03 Contact</h2>
+        <p id="contact-email">baileygardner25@gmail.com</p>
+        <div id="social-container">
+            <a href="http://www.linkedin.com/in/baileygardner25" target="_blank"><img class="img-social" id="img-linkedin" src="assets/LI-In-Bug.png" alt="LinkedIn"></a>
+            <a href="https://github.com/BGardner25" target="_blank"><img class="img-social" id="img-github" src="assets/GitHub-Mark-120px-plus.png" alt="GitHub"></a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
