@@ -3,6 +3,7 @@ body {
     text-align: center;
     font-family: Raleway, sans-serif;
     line-height: 1.5em;
+    padding: 75px 0 75px 0;
 }
 
 h1 {
@@ -41,7 +42,7 @@ img, iframe {
 
 .site-container {
     width: 90%;
-    margin: 75px auto;
+    margin: 0 auto;
 }
 
 .vert-line {
