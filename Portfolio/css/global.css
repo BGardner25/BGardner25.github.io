@@ -1,31 +1,40 @@
+:root {
+    /* GLOBAL VARIABLES */
+    --text-color: #404040;
+    --sub-heading-color: #707070;
+    --backgrnd-color: #fbfbfb;
+    --font-main: Raleway, sans-serif;
+    --font-sub: didot-w01-italic, serif;
+}
+
 /* GENERAL SITE STYLING */
 body {
     text-align: center;
-    font-family: Raleway, sans-serif;
+    font-family: var(--font-main);
     line-height: 1.5em;
     padding: 75px 0 75px 0;
-    background-color: #fbfbfb;
+    background-color: var(--backgrnd-color);
 }
 
 h1 {
     font-size: 50px;
     font-weight: lighter;
-    color: #404040;
+    color: var(--text-color);
 }
 
 h2 {
-    font-family: didot-w01-italic, serif;
+    font-family: var(--font-sub);
     font-size: 22px;
     font-style: italic;
     font-weight: bold;
-    color: #707070;
+    color: var(--sub-heading-color);
     letter-spacing: 0.05em;
     margin-bottom: 40px;
 }
 
 p {
     font-size: 20px;
-    color: #404040;
+    color: var(--text-color);
 }
 
 li {

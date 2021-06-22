@@ -7,11 +7,14 @@
 
 .grid-item {
     flex: 1 1 auto;
-    background-color: #fbfbfb;
-    box-shadow: 0 0 10px #e1e1e1;
-    -moz-box-shadow: 0 0 10px #e1e1e1;
-    -webkit-box-shadow: 0 0 10px #e1e1e1;
-    -o-box-shadow: 0 0 10px #e1e1e1;
+    background-color: var(--backgrnd-color);
+    
+    --box-shadow-color: #e1e1e1;
+    box-shadow: 0 0 10px var(--box-shadow-color);
+    -moz-box-shadow: 0 0 10px var(--box-shadow-color);
+    -webkit-box-shadow: 0 0 10px var(--box-shadow-color);
+    -o-box-shadow: 0 0 10px var(--box-shadow-color);
+
     border-radius: 8px;
     padding: 10px;
     margin: 10px;
